@@ -33,3 +33,14 @@ ___
 Custom Object: AI Agents
 
 [View AI Agents in HubSpot](https://app.hubspot.com/contacts/51982705/objects/2-68807653/views/all/list)
+
+## Run the application
+
+Install the dependencies:
+
+npm install
+
+Start the application:
+
+node index.js
+
