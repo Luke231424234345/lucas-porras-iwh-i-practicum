@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/style.css')
+
+  body
+    main
+      h1 AI Agents
+
+      a(href='/update-cobj') Add to this table
+
+      if data && data.length
+        table
+          thead
+            tr
+              th Name
+              th Role
+              th Model
+          tbody
+            each agent in data
+              tr
+                td= agent.properties.name
+                td= agent.properties.role
+                td= agent.properties.model
+      else
+        p No AI Agents found.

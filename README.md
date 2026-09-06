@@ -26,3 +26,21 @@ ___
 - All work must be your own. During the grading process we will check the revision history. Submissions that do not meet this requirement will not be considered.
 - You must have at least two new routes in your index.js file and one new pug template for the homepage.
 - You must create a developer test account and link to it in your README.md file. Submissions that do not meet this requirement will not be considered.
+
+
+## HubSpot Custom Object
+
+Custom Object: AI Agents
+
+[View AI Agents in HubSpot](https://app.hubspot.com/contacts/51982705/objects/2-68807653/views/all/list)
+
+## Run the application
+
+Install the dependencies:
+
+npm install
+
+Start the application:
+
+node index.js
+
