@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/style.css')
+
+  body
+    main
+      h1 Add AI Agent
+
+      a(href='/') Return to the homepage
+
+      form(action='/update-cobj', method='POST')
+        div
+          label(for='name') Name
+          input(type='text', id='name', name='name', required)
+
+        div
+          label(for='role') Role
+          input(type='text', id='role', name='role', required)
+
+        div
+          label(for='model') Model
+          input(type='text', id='model', name='model', required)
+
+        button(type='submit') Create AI Agent
